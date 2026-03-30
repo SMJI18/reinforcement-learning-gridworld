@@ -1,4 +1,4 @@
-# reinforcement-learning-gridworld
+# Reinforcement-learning-gridworld
 
 Gridworld MDP examples and algorithms.
 
