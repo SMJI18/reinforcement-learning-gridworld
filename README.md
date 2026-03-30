@@ -8,6 +8,16 @@ This repository contains small gridworld Markov Decision Process examples and im
 - Policy Iteration (PI)
 - Q-Learning (QL)
 
+## Algorithms Implemented
+
+This project implements and compares three classical reinforcement learning / dynamic programming algorithms:
+
+• Value Iteration (VI)  
+• Policy Iteration (PI)  
+• Q-Learning (QL)
+
+These algorithms are evaluated across multiple gridworld scenarios to analyze convergence behavior, optimal policies, and episodic returns.
+
 Usage
 -----
 
