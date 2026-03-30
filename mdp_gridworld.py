@@ -7,6 +7,8 @@ from matplotlib.colors import TwoSlopeNorm
 import warnings
 import os
 warnings.filterwarnings("ignore")
+SEED = 42
+np.random.seed(SEED)
 
 # ─── MDP / Environment parameters ───────────────────────────────────────────
 GRID_SIZE    = 4
@@ -26,8 +28,6 @@ QL_EPS_START  = 0.2
 QL_EPS_END    = 0.01
 QL_MAX_STEPS  = 100
 EVAL_EPISODES = 100
-SEED          = 42
-
 
 # ─── Four scenarios ──────────────────────────────────────────────────────────
 def make_scenarios():
